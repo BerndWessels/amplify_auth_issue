@@ -1,0 +1,56 @@
+type Org {
+  k1: ID
+  k2: ID
+  createdAt: AWSDateTime
+  deletedAt: AWSDateTime
+  name: String
+  description: String
+  paymentPlan: String
+  paymentDate: String
+  paymentPeriod: String
+  credits: Int
+  userOrgRelation: UserOrgRelation
+}
+
+type User {
+  k1: ID
+  k2: ID
+  createdAt: AWSDateTime
+  deletedAt: AWSDateTime
+  lastActivityAt: AWSDateTime
+  name: String
+  email: AWSEmail
+  orgs: [Org]
+}
+
+type UserOrgRelation {
+  k1: ID
+  k2: ID
+  role: UserOrgRole
+  isDefault: Boolean
+}
+
+enum UserOrgRole {
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+type Mutation {
+  # Org payment plan details and credits are mutated via payment Lambda
+  # The mutations here are for the front-end and could be tempered with
+  createOrg(name: String!, description: String): Org
+  updateOrg(id: ID!, name: String, description: String): Boolean!
+  deleteOrg(id: ID!): Boolean!
+  # This will return a presigned S3 Upload URL
+  uploadReceipt(orgId: ID!, name: String!, contentType: String!): AWSURL
+}
+
+type Query {
+  viewer: User!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

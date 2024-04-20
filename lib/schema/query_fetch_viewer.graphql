@@ -1,0 +1,18 @@
+query FetchViewer {
+  viewer {
+    orgs {
+      k1
+      k2
+      name
+      userOrgRelation {
+        k1
+        k2
+        role
+        isDefault
+      }
+    }
+    k1
+    k2
+    name
+  }
+}

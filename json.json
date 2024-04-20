@@ -1,0 +1,90 @@
+[{
+  "messageId": "668f1038-991a-4759-ab91-faeade9ba565",
+  "receiptHandle": "AQEBAdhNr6mHfgADvPkDbjWreY5RwFonNRsSrjX7KNjtpp66eFz3Zrre8wIq3pjyV7Ndg3NNTbdZUI3J3SnGwjaLNgmvl89pKmWUJlOp2uXo/3EfIHPOQge2U3Js+NmzvC48hmtQuV34xp6fbz76EilUCZDstQaa4E3J+NQsJY8+9V/CeePaXJdsZNlOeEiPx6oDGoOBwaoswp6upV/9msai0Nv9nxMrXGdoPNHooasicJzfWAgcbUnjnd42ADTPNztv6amnbCNhXTXEonM6bcNviry2apYUvyevj4/DGx+7EhUOiv0JMULVRv8Y/+ovz5C6En6EXDiVXRS7gElHcCxC82JB+iO/DV0NH03ySwHN1+8nPRzku/aRXvi36UHRjuAvUK9izsOSDobLhcBAR5jhegB7xpH2HtG/zsajTiYEUFCc6zyVo0ZceLDyliPag2JAkCo0fSO9H/YoclgIqSTcNKPnEBoFhJGMeRAQj2iCIC4=",
+  "body": "{\"sub\":\"a73af54d-028b-48f7-9306-f5359ea7518e\",\"email_verified\":\"true\",\"cognito:user_status\":\"CONFIRMED\",\"cognito:email_alias\":\"wesselsbernd+cognito2@gmail.com\",\"email\":\"wesselsbernd+cognito2@gmail.com\"}",
+  "attributes": {
+    "ApproximateReceiveCount": "1",
+    "AWSTraceHeader": "Root=1-6615ed86-63b30ed53a12f5c64062476d;Parent=7863f2740dd89284;Sampled=0;Lineage=f9e8de57:0",
+    "SentTimestamp": "1712713096181",
+    "SenderId": "AROAZX5GOXWGCRLZCPYAQ:Sisyphus-Development-Auth-PostUserConfirmationTrig-hkl1sBfT78Cw",
+    "ApproximateFirstReceiveTimestamp": "1712713096187"
+  },
+  "messageAttributes": {},
+  "md5OfBody": "a13cc9176d76127c2d7f5f30f4312e64",
+  "eventSource": "aws:sqs",
+  "eventSourceARN": "arn:aws:sqs:us-east-1:669827120524:Sisyphus-Development-AuthStackNes-PostUserConfirmationQueue81192012-WeX35UEof4za",
+  "awsRegion": "us-east-1"
+},
+{
+  "messageId": "41d7752a-5133-4d44-a83c-578e306b4c40",
+  "receiptHandle": "AQEBtvlgOZMY5Qrhwzvq0JBpC3n3K6yWAaw70pINL0tyCXJl+fmScWBSuzSARP6JyuOffEeY8aEKqma0qj+7MmjEw/Swn8m9Sj8094H5gS31xu5nL58cVTv1F5g0muIdRZA4c2EgvIyee2XOKRErWANk8vdHml72qILenNEX1YkY/vvF3+383mS5PvTUntlFD1ChO6QYZjBYTKM0jnqPJu/XSsv8aEXQm2ftHzUL0qsSEYKURmPLw6Goz6FNWTik40Iv4/W+WsuN+fW5IQSeWeVmobgsnI2Spaiexy1Gz9Zy6WgEY4NhMMHsIgkZgUkiHuzI7T4q6XbY/ONRNWg+IXm2UJg32QLWccPX3tqcZjagr5r/MvNLseBbO0/bGc+hnjctsX8EywYZPhm7OmkGon2KFCVyMjYwFcylQpcU3SVzJFjlI3eeghgpFa/YZXeP6y4OHYHheftyRwKyyE9KpXYi7fZAjwpdzzDxGQHhwknC1Es=",
+  "body": "{\"sub\":\"8447f4ce-90a2-443f-8368-9fe0e486a098\",\"email_verified\":\"false\",\"cognito:user_status\":\"EXTERNAL_PROVIDER\",\"identities\":\"[{\\\"userId\\\":\\\"107117751951979295500\\\",\\\"providerName\\\":\\\"Google\\\",\\\"providerType\\\":\\\"Google\\\",\\\"issuer\\\":null,\\\"primary\\\":true,\\\"dateCreated\\\":1712714607220}]\",\"email\":\"wesselsbernd@gmail.com\"}",
+  "attributes": {
+    "ApproximateReceiveCount": "1",
+    "AWSTraceHeader": "Root=1-6615f36f-710e5d6d02442af553610daf;Parent=74b080bd7ac5074d;Sampled=0;Lineage=f9e8de57:0",
+    "SentTimestamp": "1712714609061",
+    "SenderId": "AROAZX5GOXWGCRLZCPYAQ:Sisyphus-Development-Auth-PostUserConfirmationTrig-hkl1sBfT78Cw",
+    "ApproximateFirstReceiveTimestamp": "1712714609064"
+  },
+  "messageAttributes": {},
+  "md5OfBody": "aaaaa2e13ddf95021f64dd8462ecfa01",
+  "eventSource": "aws:sqs",
+  "eventSourceARN": "arn:aws:sqs:us-east-1:669827120524:Sisyphus-Development-AuthStackNes-PostUserConfirmationQueue81192012-WeX35UEof4za",
+  "awsRegion": "us-east-1"
+},
+
+
+{
+  "body": {
+    "sub": "a73af54d-028b-48f7-9306-f5359ea7518e",
+    "email_verified":"true",
+    "cognito:user_status":"CONFIRMED",
+    "cognito:email_alias":"wesselsbernd+cognito2@gmail.com",
+    "email":"wesselsbernd+cognito2@gmail.com"
+    }
+}, {
+  "body": {
+    "sub":"8447f4ce-90a2-443f-8368-9fe0e486a098",
+    "email_verified":"false",
+    "cognito:user_status":"EXTERNAL_PROVIDER",
+    "identities": [{
+        "userId":"107117751951979295500",
+        "providerName":"Google",
+        "providerType":"Google",
+        "issuer":null,
+        "primary":true,
+        "dateCreated":1712714607220
+        }],
+    "email":"wesselsbernd@gmail.com"
+  }
+},
+
+
+
+{
+  "version": "1",
+  "region": "us-east-1",
+  "userPoolId": "us-east-1_hMSow3j1E",
+  "userName": "Google_107117751951979295500",
+  "callerContext": {
+    "awsSdkVersion": "aws-sdk-unknown-unknown",
+    "clientId": "1jebrjkcpulre8ngacm94i4v35"
+  },
+  "triggerSource": "PreSignUp_ExternalProvider",
+  "request": {
+    "userAttributes": {
+      "email_verified": "false",
+      "cognito:email_alias": "",
+      "cognito:phone_number_alias": "",
+      "email": "wesselsbernd@gmail.com"
+    },
+    "validationData": {}
+  },
+  "response": {
+    "autoConfirmUser": false,
+    "autoVerifyEmail": false,
+    "autoVerifyPhone": false
+  }
+}
+
+]
